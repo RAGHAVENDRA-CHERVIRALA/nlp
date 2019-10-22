@@ -45,17 +45,7 @@ Post.find().lean().exec(function (err, posts) {
 
 //Training data
 
-classifier.addDocument('Historical Transactional Data is managed by GDW', 'Please contact GDW');
-    classifier.addDocument('Balances and Accounts Data is managed by CBS', 'Please contact CBS');
-    classifier.addDocument('Customer Data is managed by OCIS', 'Please contact OCIS');
-    classifier.addDocument('Customer', 'Please contact OCIS');
-    classifier.addDocument('Accounts', 'Please contact CBS');
-    classifier.addDocument('Historical', 'Please contact GDW');
-    classifier.addDocument('Transactional', 'Please contact GDW');
-    classifier.addDocument('Infrastructure', 'Please contact ITS');
-    classifier.addDocument('Hardware', 'Please contact ITS');
-    classifier.addDocument('API', 'Please restart the service');
-    const data = require("./abs.json")
+//     const data = require("./abs.json")
 const data1 = require("./data.json")
 
 //Add  Training Externally
